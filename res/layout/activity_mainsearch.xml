@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#336699"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Mainsearch" >
+
+     <EditText
+         android:id="@+id/NamaKelas"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="92dp"
+         android:ems="10"
+         android:background="#EEEEEE"
+        android:hint="@string/Masukkannamaruangan"
+         
+         >
+     </EditText>
+
+     <Button
+         android:id="@+id/About"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/NamaKelas"
+         android:layout_alignRight="@+id/NamaKelas"
+         android:layout_below="@+id/Find"
+         android:layout_marginTop="29dp"
+         android:background="#EEEEEE"
+         android:text="@string/about"
+         android:textColor="#336699" />
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/NamaKelas"
+         android:gravity="center"
+         android:text="@string/ClassFinder"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#EEEEEE"
+         android:textSize="40sp"
+         android:textStyle="bold|italic" />
+
+     <Button
+         android:id="@+id/Exit"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/About"
+         android:layout_alignRight="@+id/About"
+         android:layout_below="@+id/About"
+         android:textColor="#336699"
+         android:layout_marginTop="42dp"
+         android:background="#EEEEEE"
+         android:text="@string/exit" />
+
+     <Button
+         android:id="@+id/Find"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/About"
+         android:layout_alignRight="@+id/About"
+         android:layout_below="@+id/NamaKelas"
+         android:layout_marginTop="32dp"
+         android:background="#EEEEEE"
+         android:text="@string/FindIt"
+         android:textColor="#336699" />
+
+</RelativeLayout>

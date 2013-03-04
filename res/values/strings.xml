@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Searcher</string>
+    <string name="action_settings">Settings</string>
+    <string name="ClassFinder">Class Finder !</string>
+    <string name="Version1.0">Version 1.0</string>
+    <string name="penjelasan">Sesuai namanya. aplikasi ini dibuat untuk mempermudah mahasiswa kampus Institut Teknologi
+</string>
+    <string name="penjelasan2">Aplikasi ini tidak berbayar dan akan terus dikembangkan sesuai kebutuhan mahasiwa 
+dan perkembangan social media yang ada</string>
+    <string name="home">Kembali ke Menu Utama</string>
+     <string name="about">about Class Finder</string>
+	<string name="exit">Exit</string>
+	<string name="lain">Cari Kelas Lain</string>
+	<string name="pesan">Pelajaran Kalkulus Terletak digedung cc Timur </string>
+	<string name="FindIt">Find It !</string>
+	<string name="Masukkannamaruangan">Masukkan nama ruangan</string>
+</resources>
